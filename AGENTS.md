@@ -1,12 +1,13 @@
 # Agent Instructions
 
-Use pnpm for all package management.
-
-This project targets Node 22.
+Use npm for all package management. Run `npm install` before starting work.
 
 Run these commands before completing changes:
 
-- `pnpm test`
-- `pnpm lint`
-- `pnpm typecheck`
-- `pnpm build`
+- `npm run verify`
+- `npm run compile`
+- `npm run bundle`
+
+Authentication code lives in `src/auth/`.
+
+Project: {{ PROJECT_NAME }}
