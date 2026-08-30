@@ -1,0 +1,9 @@
+{
+  "name": "agent-readiness-test-repo",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "test": "echo \"tests passed\"",
+    "lint": "echo \"lint passed\""
+  }
+}
