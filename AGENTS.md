@@ -2,12 +2,11 @@
 
 Use pnpm for all package management.
 
-Run `pnpm test` before finishing.
+This project targets Node 22.
 
-## Authentication
+Run these commands before completing changes:
 
-Authentication code lives in `src/auth/`.
-
-## Where to look
-
-Start with `src/auth/` when changing sign-in behaviour.
+- `pnpm test`
+- `pnpm lint`
+- `pnpm typecheck`
+- `pnpm build`
