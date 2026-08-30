@@ -6,7 +6,6 @@
     "test": "echo \"tests passed\"",
     "lint": "echo \"lint passed\"",
     "typecheck": "echo \"typecheck passed\"",
-    "build": "echo \"build passed\"",
-    "generate": "echo \"generated\""
+    "build": "echo \"build passed\""
   }
 }
