@@ -10,3 +10,7 @@ Run these commands before completing changes:
 - `pnpm lint`
 - `pnpm typecheck`
 - `pnpm build`
+
+## Generated files
+
+Files under `src/generated/` are generated and must never be edited directly. Run `pnpm generate` after schema changes.
