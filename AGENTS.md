@@ -10,3 +10,7 @@ Run these commands before completing changes:
 - `pnpm lint`
 - `pnpm typecheck`
 - `pnpm build`
+
+## Authentication
+
+Authentication logic lives in `apps/web` and the web app owns authentication.
