@@ -2,6 +2,6 @@
 
 Small repository used to test repository ingestion.
 
-## Architecture
+## Generated files
 
-Authentication was migrated to `apps/api`; `apps/web` no longer owns authentication.
+Files under `src/generated/` are generated and must never be edited directly. Run `pnpm generate` after schema changes.
