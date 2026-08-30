@@ -2,4 +2,11 @@
 
 Use pnpm for all package management.
 
-Run `pnpm test` before completing changes.
+This project targets Node 22.
+
+Run these commands before completing changes:
+
+- `pnpm test`
+- `pnpm lint`
+- `pnpm typecheck`
+- `pnpm build`
